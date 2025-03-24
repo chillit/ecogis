@@ -1,0 +1,31 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "ecogis-ac465",
+          "appId": "1:736993890036:android:56a41344b5b7a806d2d8a1",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "ecogis-ac465",
+          "configurations": {
+            "android": "1:736993890036:android:56a41344b5b7a806d2d8a1",
+            "ios": "1:736993890036:ios:c86712d542436153d2d8a1",
+            "web": "1:736993890036:web:84813221c74b1ae4d2d8a1"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
